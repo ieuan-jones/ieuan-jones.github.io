@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <title>News</title>
+        
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+        
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                
+                font-family: 'Oxygen', 'Arial', sans-serif;
+                
+                /*background-color: #fafafa;*/
+            }
+            
+            a {
+                text-decoration: none;
+                color: rgba(0,0,0,0.7);
+            }
+            
+            a:hover {
+                text-decoration: underline;
+            }
+            
+            #titlebar {
+                background-image: linear-gradient(rgba(40,147,235,1),rgba(40,147,235,0.9));
+                height: 60px;
+                width: 100%;
+                position: fixed;
+                z-index: 1000;
+                top: 0px;
+                box-shadow: 0px 2px 4px #17568A;
+            }
+            
+            #titlebar > .header {
+                font-size: 40px;
+                color: #fff;
+                text-shadow: rgba(0,0,0,0.4) 1px 1px 1px;
+                line-height: 55px;
+                margin-left: 10px;
+            }
+            
+            #contentbox {
+                width: 700px;
+                height: 500px;
+                margin: 0 auto;
+                margin-top: 80px;
+            }
+            
+            #categorybox {
+                width: 176px;
+                padding-bottom: 12px;
+                background-color: #fff;
+                color: rgba(0,0,0,0.8);
+                border-radius: 4px;
+                /*box-shadow: 0px 0px 2px #ddd;*/
+                float: left;
+            }
+            
+            #categorybox > p {
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            
+            #newsbox {
+                width: 500px;
+                float: right;
+            }
+            
+            #newsbox > .newsitem {
+                background-color: #fff;
+                /*box-shadow: 0px 0px 2px #ddd;*/
+                width: 476px;
+                padding: 6px;
+                margin-bottom: 36px;
+                margin-top: 12px;
+                color: rgba(0,0,0,0.8);
+            }
+            
+            #newsbox > .newsitem .heading {
+                font-size: 24px;
+                font-weight: 700;
+                color: rgb(0,0,0) !important;
+            }
+            
+            .profilebox {
+                width: 152px;
+                height: 48px;
+                margin-left: 12px;
+                margin-top: 12px;
+            }
+            
+            .profilebox > .profile_pic_small {
+                float: left;
+                width: 48px;
+                height: 48px;
+                background-color: #F26924;
+                border-radius: 10px;
+            }
+            
+            .profilebox > .userdetails {
+                width: 92px;
+                height: 48px;
+                float: right;
+                line-height: 36px;
+            }
+            
+            #categorybox > .categories {
+                margin-top: 12px;
+                margin-left: 12px;
+            }
+            
+            #categorybox > .categories > h1 {
+                margin: 0px;
+                margin-bottom: 6px;
+                font-size: 20px;
+                color: rgb(0,0,0);
+            }
+            
+            .category_sport {
+                border-top: solid 5px #EBCE28;
+            }
+            
+            .category_usa {
+                border-top: solid 5px #EB3B28;
+            }
+            
+            .category_tech {
+                border-top: solid 5px #2893EB;
+            }
+            
+            .category_science {
+                border-top: solid 5px #45EB28;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="titlebar"><span class="header">News</span></div>
+        
+        <div id="contentbox">
+            <div id="categorybox">
+                <div class="profilebox">
+                    <div class="profile_pic_small"></div>
+                    <div class="userdetails">
+                        Ieuan Jones
+                    </div>
+                </div>
+                
+                <div class="categories">
+                    <h1>Favourites</h1>
+                    
+                    <a href="">Tech</a><br />
+                    <a href="">Football</a><br />
+                    <a href="">Science</a><br />
+                    <a href="">+ Add</a>
+                </div>
+            </div>
+            
+            <div id="newsbox">
+                <div class="newsitem category_sport">
+                    <a href="article1.html?article=1"><span class="heading">Chelsea: Jose Mourinho seeks more trophies after League Cup</span></a>
+                
+                    <div class='newscontent'>
+                        <p> Jose Mourinho is determined to chase more trophies after victory in the Capital One Cup on Sunday, the first of his second spell with Chelsea. </p>
+                
+                        <p> Mourinho, who first managed Chelsea between 2004 and 2007 before returning in 2013, has now won seven trophies with the London club. </p>
+                
+                        <p> "I am like a kid winning the first one," the Portuguese said. </p>
+                
+                        <a href="">Spread</a> &middot; <a href='http://www.bbc.co.uk/sport/0/football/31688077'>Read more at BBC</a>
+                    </div>
+                </div>
+                
+                <div class='newsitem category_usa'>
+                    <a href="article1.html?article=2"><span class='heading'> Boston bombing trial: Tsarnaev lawyer admits his guilt </span></a>
+                    
+                    <div class='newscontent'>
+                        <p> After the lawyers concluded their opening statements, several witnesses were brought before the jury to testify. </p>
+                    
+                        <p> More than 260 people were injured, with many losing limbs. </p>
+                    
+                        <p> The two bombs detonated at the finishing line of the Boston Marathon </p>
+                    
+                        <a href="">Spread</a> &middot; <a href=' http://www.bbc.co.uk/news/world-us-canada-31727243 '>Read more at BBC</a>
+                    </div>
+                </div>
+                
+                <div class='newsitem category_tech'>
+                    <a href="article1.html?article=3"><span class='heading'> China and US clash over software backdoor proposals </span></a>
+                
+                    <div class='newscontent'>
+                        <p> Beijing has rejected President Obama's criticism of its plan to make tech companies put backdoors in their software and share their encryption keys if they want to operate in China. </p>
+                
+                        <p> It "would essentially force all foreign companies, including US companies, to turn over to the Chinese government mechanisms where they can snoop and keep track of all the users of those services", the US leader said. </p>
+                
+                        <p> At another press conference, parliamentary spokeswoman Fu Ying drew attention to the fact that the US government had imposed restrictions on Chinese companies including Huawei and ZTE. </p>
+                
+                        <a href="">Spread</a> &middot; <a href=' http://www.bbc.co.uk/news/technology-31729305 '>Read more at BBC</a>
+                    </div>
+                </div>
+                
+                <div class="newsitem category_science">
+                    <a href="article1.html?article=4"><span class='heading'> New threats to wild bees identified </span></a>
+                
+                    <div class='newscontent'>
+                        <p> With wild bees already under threat from habitat loss and pesticides, diseases could have a profound impact on populations, say scientists. </p>
+                
+                        <p> However, many honeybees looked after by bee keepers forage in the countryside and urban habitats, where they may come into contact with wild bumblebees. </p>
+                
+                        <p> Wild bumblebees are infected with many of the diseases found in honeybees looked after by bee keepers, according to a national survey. </p>
+                
+                        <a href="">Spread</a> &middot; <a href=' http://www.bbc.co.uk/news/science-environment-31709115 '>Read more at BBC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
