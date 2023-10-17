@@ -108,7 +108,7 @@ BOOKS = [
         'weight': 1
     },
     {
-        'name': 'psalm',
+        'name': 'Psalms',
         'chapters': 150,
         'section': 'psalm',
         'weight': 1
