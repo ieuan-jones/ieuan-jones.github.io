@@ -75,6 +75,7 @@ html, body {
     margin-top: 20vh;
     display: flex;
     align-items: center;
+    cursor: default;
 }
 
 /* CONTENT */
@@ -84,41 +85,63 @@ html, body {
     top: 85vh;
     width: 100vw;
     background-color: #fafafd;
-    padding-top: 0.05px;
 }
 
-#content {
+#schedule {
+    width: 100vw;
+    aspect-ratio: 6048/4024;
+
+    background-image: url('what3.jpg');
+    background-size: cover;
+}
+
+.white {
+    background-color: #fafafd;
+}
+
+.lavender {
+    background-color: #dbdbe5;
+}
+
+.content_box {
     margin: 0 auto;
     max-width: 70rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    column-gap: 2rem;
+    row-gap: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
-#mission {
+.wide_card {
     width: 60rem;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
-#mission > p {
+.wide_card > p {
     max-width: 30rem;
-    margin: 5vh auto;
-    font-size: 20pt;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24pt;
 }
 
 .card {
-    width: 30rem;
+    width: 25rem;
     display: flex;
     align-items: center;
 }
 
 .card > p {
     max-width: 20em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .card > img {
-    width: 30rem;
+    width: 25rem;
     max-width: 100vw;
 }
 
@@ -128,4 +151,12 @@ html, body {
 
 .right {
     text-align: right;
+}
+
+.image-left {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.image-right {
+    border-radius: 0 1rem 1rem 0;
 }
