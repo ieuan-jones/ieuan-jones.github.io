@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: sans-serif;
+
+    background-color: #a8a8c0;
+}
+
+#top_banner {
+    height: 240px;
+    line-height: 240px;
+}
+
+#centre {
+    width: 367px;
+    margin: 0 auto;
+}
+
+#logo {
+    margin-top: 50px;
+    height: 140px;
+}
+
+
+#content {
+    width: 16em;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    margin: 40px auto;
+    font-family: 'Sacramento', cursive;
+    background-image: url('background.png');
+    background-size: 100%;
+    aspect-ratio: 692/461;
+}
+
+#inner_content {
+    padding: 1em;
+}
