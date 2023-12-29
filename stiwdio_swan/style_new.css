@@ -1,7 +1,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    font-family: 'Noto Serif', sans-serif;
+    font-family: 'Noto Serif', serif;
     font-size: 16pt;
 }
 
@@ -88,6 +88,8 @@ html, body {
     display: flex;
     align-items: center;
     cursor: default;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
 }
 
 /* CONTENT */
